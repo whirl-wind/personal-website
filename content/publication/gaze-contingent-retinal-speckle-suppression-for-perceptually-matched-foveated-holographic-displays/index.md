@@ -50,7 +50,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: publication/2108.06192-1.pdf
+url_pdf: gaze-contingent-retinal-speckle-suppression-for-perceptually-matched-foveated-holographic-displays/publication/2108.06192-1.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
