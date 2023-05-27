@@ -36,10 +36,13 @@ abstract: Computer-generated holographic (CGH) displays show great potential and
   evaluations with objective measurements and subjective studies demonstrate a
   significant reduction of the human perceived noise.
 draft: false
-featured: false
-tags: []
-projects: []
 url_pdf: ""
+featured: false
+tags:
+  - holograms
+  - foveated rendering
+  - near-eye immersive displays
+projects: []
 image:
   filename: retina-holograph.png
   focal_point: Smart
