@@ -50,7 +50,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 2108.06192-1.pdf
+url_pdf: publication/2108.06192-1.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -83,6 +83,6 @@ slides: ""
 date: 2021-08-27T07:00:00.000Z
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+{{% /callout %}} -->
