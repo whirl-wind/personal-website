@@ -19,26 +19,20 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/whirl-wind/
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: UC Davis
+    url: https://www.ucdavis.edu/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Computer Science
+      institution: University of California, Davis
+      year: 2021
+    - course: BSc in Applied Mathematics
+      institution: University of Science and Technology of China
+      year: 2017
 superuser: true
 status:
   icon: ☕️
