@@ -11,8 +11,11 @@ authors:
   - Qi Sun
   - Henry Fuchs
 doi: 10.1109/TVCG.2021.3106433
+
+# Publication name and optional abbreviated publication name.
 publication: in IEEE Transactions on Visualization and Computer Graphics
 publication_short: in TVCG
+
 abstract: Computer-generated holographic (CGH) displays show great potential and
   are emerging as the next-generation displays for augmented and virtual
   reality, and automotive heads-up displays. One of the critical problems
@@ -35,18 +38,48 @@ abstract: Computer-generated holographic (CGH) displays show great potential and
   superior perceptual quality on our emulated holographic display. Our
   evaluations with objective measurements and subjective studies demonstrate a
   significant reduction of the human perceived noise.
-draft: false
-url_pdf: ""
-featured: false
+
 tags:
   - holograms
   - foveated rendering
   - near-eye immersive displays
-projects: []
+
+draft: false
+featured: false
+
+# links:
+# - name: ""
+#   url: ""
+url_pdf: 2108.06192-1.pdf
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   filename: retina-holograph.png
   focal_point: Smart
   preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+
 date: 2021-08-27T07:00:00.000Z
 ---
 
