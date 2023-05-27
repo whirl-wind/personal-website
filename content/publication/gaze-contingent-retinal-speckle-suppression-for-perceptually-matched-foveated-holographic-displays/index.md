@@ -38,8 +38,7 @@ abstract: Computer-generated holographic (CGH) displays show great potential and
 draft: false
 featured: false
 tags: []
-projects:
-  - "123"
+projects: []
 image:
   filename: retina-holograph.png
   focal_point: Smart
