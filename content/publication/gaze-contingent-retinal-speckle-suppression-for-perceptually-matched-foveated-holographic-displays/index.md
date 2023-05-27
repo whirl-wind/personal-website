@@ -12,7 +12,7 @@ authors:
   - Henry Fuchs
 doi: 10.1109/TVCG.2021.3106433
 publication: in IEEE Transactions on Visualization and Computer Graphics
-publication_short: inTVCG 2021
+publication_short: in TVCG
 abstract: Computer-generated holographic (CGH) displays show great potential and
   are emerging as the next-generation displays for augmented and virtual
   reality, and automotive heads-up displays. One of the critical problems
