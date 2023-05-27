@@ -37,6 +37,8 @@ abstract: Computer-generated holographic (CGH) displays show great potential and
   significant reduction of the human perceived noise.
 draft: false
 featured: false
+tags:
+  - "1"
 image:
   filename: retina-holograph.png
   focal_point: Smart
