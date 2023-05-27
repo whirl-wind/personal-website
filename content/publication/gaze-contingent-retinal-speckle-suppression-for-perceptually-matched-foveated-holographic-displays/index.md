@@ -39,9 +39,14 @@ draft: false
 featured: false
 tags: []
 projects: []
+url_pdf: ""
 image:
   filename: retina-holograph.png
   focal_point: Smart
   preview_only: false
 date: 2021-08-27T07:00:00.000Z
 ---
+
+{{% callout note %}}
+Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
