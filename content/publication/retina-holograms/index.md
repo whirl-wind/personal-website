@@ -50,7 +50,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ./2108.06192-1.pdf
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -62,7 +62,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  filename: retina-holograph.png
+  filename: retina-holograms.png
   focal_point: Smart
   preview_only: false
 
