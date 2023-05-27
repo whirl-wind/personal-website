@@ -2,7 +2,7 @@
 title: "1"
 subtitle: "1"
 publication_types:
-  - "0"
+  - "2"
 draft: false
 featured: false
 image:
