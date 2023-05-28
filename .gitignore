@@ -12,4 +12,4 @@ go.sum
 .hugo_build.lock
 
 # CV docx
-static/uploads
+static/uploads/ZhanZhangCV.docx
