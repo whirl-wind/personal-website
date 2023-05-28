@@ -72,7 +72,7 @@ sections:
     id: publication 
     content:
       title: Publications
-      text:  Quickly discover relevant content by [filtering publications](./publication/).
+      text:  [[filtering publications]](./publication/).
       filters:
         folders:
           - publication
