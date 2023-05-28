@@ -69,20 +69,21 @@ sections:
   #     columns: '2'
   #     view: card
   - block: collection
+    id: publication 
     content:
       title: Publications
       text: |-
-        {{% callout note %}}
+        # {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+        # {{% /callout %}}
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
       columns: '2'
-      view: citation
-      # view: compact
+      # view: citation
+      view: compact
   # - block: experience
   #   content:
   #     title: Experience
