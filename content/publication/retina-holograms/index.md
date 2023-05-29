@@ -44,7 +44,7 @@ url_video: ''
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   filename: retina-holograms_teaser.png
-  focal_point: left
+  focal_point: Right
   preview_only: false
 
 # Associated Projects (optional).
