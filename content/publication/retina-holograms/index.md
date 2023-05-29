@@ -18,6 +18,8 @@ publication_short: in TVCG
 
 abstract: We introduce the anatomical and statistical retinal receptor distribution into our computational hologram optimization, which places a higher priority on reducing the perceived foveal speckle noise while being adaptable to any individual's optical aberration on the retina. Our method demonstrates superior perceptual quality on our emulated holographic display. 
 
+Computer-generated holographic (CGH) displays show great potential and are emerging as the next-generation displays for augmented and virtual reality, and automotive heads-up displays. One of the critical problems harming the wide adoption of such displays is the presence of speckle noise inherent to holography, which compromises its quality by introducing perceptible artifacts. Although speckle noise suppression has been an active research area, the previous works have not considered the perceptual characteristics of the Human Visual System (HVS), which receives the final displayed imagery. However, it is well-studied that the sensitivity of the HVS is not uniform across the visual field, which has led to gaze-contingent rendering schemes for maximizing the perceptual quality in various computer-generated imagery. Inspired by this, we present the first method that reduces the “perceived speckle noise” by integrating the foveal and peripheral vision characteristics of the HVS, along with the retinal point spread function, into the phase hologram computation. Specifically, our evaluations with objective measurements and subjective studies demonstrate a significant reduction of the human perceived noise.
+
 tags:
   - holograms
   - foveated rendering
@@ -41,9 +43,9 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  filename: retina-holograms.png
-  focal_point: Smart
-  preview_only: true
+  filename: retina-holograms_teaser.png
+  focal_point: left
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -65,7 +67,3 @@ date: 2021-08-27T07:00:00.000Z
 <!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}} -->
-
-![teaser](./retina-holograms_teaser.png).
-
-Computer-generated holographic (CGH) displays show great potential and are emerging as the next-generation displays for augmented and virtual reality, and automotive heads-up displays. One of the critical problems harming the wide adoption of such displays is the presence of speckle noise inherent to holography, which compromises its quality by introducing perceptible artifacts. Although speckle noise suppression has been an active research area, the previous works have not considered the perceptual characteristics of the Human Visual System (HVS), which receives the final displayed imagery. However, it is well-studied that the sensitivity of the HVS is not uniform across the visual field, which has led to gaze-contingent rendering schemes for maximizing the perceptual quality in various computer-generated imagery. Inspired by this, we present the first method that reduces the “perceived speckle noise” by integrating the foveal and peripheral vision characteristics of the HVS, along with the retinal point spread function, into the phase hologram computation. Specifically, our evaluations with objective measurements and subjective studies demonstrate a significant reduction of the human perceived noise.
