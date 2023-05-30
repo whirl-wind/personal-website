@@ -80,7 +80,7 @@ sections:
     design:
       columns: '2'
       # view: citation
-      view: compact
+      view: community/publication
   # - block: experience
   #   content:
   #     title: Experience
@@ -156,9 +156,9 @@ sections:
   #   design:
   #     columns: '2'
   - block: collection
-    id: posts
+    id: notes
     content:
-      title: Recent Posts
+      title: Notes
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -166,7 +166,7 @@ sections:
       # Filter on criteria
       filters:
         folders:
-          - post
+          - note
         author: ""
         category: ""
         tag: ""
@@ -180,7 +180,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: compact
+      view: community/note
       columns: '2'
   - block: portfolio
     id: projects
@@ -199,14 +199,15 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Code
+          tag: Code
         - name: Other
           tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: showcase
+      # view: card
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   # - block: markdown
@@ -229,7 +230,7 @@ sections:
       view: compact
   - block: tag_cloud
     content:
-      title: Popular Topics
+      title: Topics
     design:
       columns: '2'
   - block: contact
@@ -237,8 +238,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      text: ''
       # Contact (add or remove contact options as necessary)
       email: zzzzhan@ucdavis.edu
       # phone: 888 888 88 88
@@ -269,14 +269,15 @@ sections:
       #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # # Choose an email form provider (netlify/formspree)
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     # If using Formspree, enter your Formspree form ID
+      #     id: ''
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
