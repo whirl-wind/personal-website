@@ -4,12 +4,12 @@ title: Gaze-Contingent Retinal Speckle Suppression for Perceptually-Matched
 publication_types:
   - "2"
 authors:
-  - Praneeth Chakravarthula
-  - admin
+  - Praneeth
+  - zz
   - Okan Tursun
-  - Piotr Didyk
-  - Qi Sun
-  - Henry Fuchs
+  - Piotr
+  - QiSun
+  - Fuchs
 doi: 10.1109/TVCG.2021.3106433
 
 # Publication name and optional abbreviated publication name.

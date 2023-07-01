@@ -70,6 +70,8 @@ email: "zhangzhan314@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+link: https://zhanzhangzz.com/
 ---
 I am a second-year PhD student in the Computer Science department at the University of California, Davis. I feel very fortunate to be co-advised by Prof. [Joseph Teran](https://www.math.ucdavis.edu/~jteran/) and Prof. [Julian Panetta](https://julianpanetta.com/).
 

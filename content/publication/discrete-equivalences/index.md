@@ -6,11 +6,11 @@ title: Modeling and Fabrication with Specified Discrete Equivalence Classes
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Zhongyuan Liu
-  - admin
+  - zz
   - Di Zhang
-  - Chunyang Ye
-  - Ligang Liu
-  - Xiao-Ming Fu
+  - ChunyangYe
+  - LigangLiu
+  - XiaomingFu
 
 # Author notes (optional)
 # author_notes:
