@@ -40,7 +40,7 @@ education:
     - course: PhD in Computer Science
       institution: University of California, Davis
       year: 2021
-    - course: BSc in Applied Mathematics
+    - course: BS in Applied Mathematics
       institution: University of Science and Technology of China
       year: 2017
 
