@@ -69,6 +69,8 @@
       {{- $item.Params.publication_short | markdownify -}}.
     {{ else if $item.Params.publication }}
       {{- $item.Params.publication | markdownify -}}.
+    {{ else }}
+      {{- "In *Coming soon*.." | markdownify -}}.
     {{ end }}
     </div>
 

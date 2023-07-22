@@ -14,5 +14,5 @@ go.sum
 # CV docx
 static/uploads/ZhanZhangCV.docx
 
-# python script
-scriptTool
+# # python script
+# scriptTool

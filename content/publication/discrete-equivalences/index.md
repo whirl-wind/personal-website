@@ -24,7 +24,7 @@ authors:
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['1']
+publication_types: ['2']
 
 doi: 10.1145/3450626.3459843
 
@@ -38,6 +38,7 @@ summary: We propose a novel method to model and fabricate shapes using a small s
 abstract: 'We propose a novel method to model and fabricate shapes using a small set of specified discrete equivalence classes of triangles. The core of our modeling technique is a fabrication-error-driven remeshing algorithm. Given a triangle and a template triangle, which are coplanar and have one-to-one corresponding vertices, we define their similarity error from a manufacturing point of view as follows: the minimizer of the maximum of the three distances between the corresponding pair of vertices concerning a rigid transformation. To compute the similarity error, we convert it into an easy-to-compute form. Then, a greedy remeshing method is developed to optimize the topology and geometry of the input mesh to minimize the fabrication error defined as the maximum similarity error of all triangles. Besides, constraints are enforced to ensure the similarity between input and output shapes and the smoothness of the resulting shapes. Since the fabrication error has been considered during the modeling process, the fabrication process is easy to proceed. To assist users in performing fabrication using common materials and tools manually, we present a straightforward manufacturing solution. The feasibility and practicability of our method are demonstrated over various examples, including seven physical manufacturing models with only nine template triangles.'
 
 tags:
+  - computational design
   - fabrication
   - discrete equivalence classes
   - constrained remeshing
