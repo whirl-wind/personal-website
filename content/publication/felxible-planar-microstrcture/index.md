@@ -10,11 +10,12 @@ authors:
   - Tian Chen
   - MarkPauly
   - Julian
+date: 2023-08-04T00:00:00.000Z
 # doi: 10.1109/TVCG.2021.3106433
 
-# # Publication name and optional abbreviated publication name.
-# publication: In *ACM Transactions on Graphics 2021*
-# publication_short: In *SIGGRAPH Aisa 2021*
+# Publication name and optional abbreviated publication name.
+publication: In *ACM Transactions on Graphics 2023*
+publication_short: In *SIGGRAPH Aisa 2023*
 
 summary: We make an initial step on developing algorithms to accelerate homogenization and metamaterial design for nonlinear elasticity and building a complete framework for the optimal design of planar metamaterials.
 
@@ -63,8 +64,6 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
-
-# date: 2021-08-27T07:00:00.000Z
 ---
 
 <!-- {{% callout note %}}

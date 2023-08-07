@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage{amsmath, fullpage}
+
+\begin{document}
+
+\newcommand{\bC}{\mathbf{C}}
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bI}{\mathbf{I}}
+\newcommand{\bP}{\mathbf{P}}
+\newcommand{\bR}{\mathbf{R}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\bS}{\mathbf{S}}
+\newcommand{\bX}{\mathbf{X}}
+\newcommand{\bx}{\mathbf{x}}
+
+\newcommand{\bFt}{\mathbf{F}^t}
+
+\title{Codimensional Corotated Energy Note}
+\author{Zhan Zhang}
+%\date{\vspace{-5ex}}
+\maketitle
+\thispagestyle{empty}
+
+\section{Energy}
+    \begin{equation}
+        E(\bx) = \sum_t\Psi(\bFt(\bx))A^t
+    \end{equation}
+    \begin{equation}
+    \begin{aligned}
+        \Psi(\bF(\bx)) &= \mu\,\text{tr}\left[(\bF-\bR(\bF))^T(\bF-\bR(\bF))\right]+\frac{\lambda}{2}(\sqrt{\text{det}(\bF^T\bF)}-1)^2\\
+        &=\mu\,\text{tr}\left[\bF^T\bF-2\bS+\bI\right]+\frac{\lambda}{2}(\sqrt{\text{det}(\bF^T\bF)}-1)^2\\
+    \end{aligned}
+    \end{equation} 
+    where, $\bF = \bR(\bF)\,\bS(\bF)$ is the polar deconposition, $\bR^T\bR = \bI\in\R^{2\times2}$. And $\bFt,\bF,\bR\in\R^{3\times2}$, $\bS\in\R^{2\times2}$. 
+
+\section{First-Piola-Kirchhoff Stress}
+    \begin{equation}
+    \begin{aligned}
+        \bP(\bF) &= \frac{\partial\Psi}{\partial\bF}(\bF)\\
+        &= \mu\,\frac{\partial}{\partial F_{\alpha\beta}}\left[F_{\gamma\delta}F_{\gamma\delta}-2\text{tr}(\bS)\right]+\lambda(\sqrt{\text{det}(\bF^T\bF)}-1)\frac{\partial \text{det}(\bF^T\bF) /\partial \bF}{2\sqrt{\text{det}(\bF^T\bF)}}\\
+        &= 2\mu\bF - 2\mu\,\frac{\partial \, \text{tr}(\bS)}{\partial \bF}+\lambda(J-1)\frac{\partial J}{\partial \bF}\\
+        &= 2\mu(\bF-\bR)+\lambda(J-1)J\bF(\bF^T\bF)^{-T}
+    \end{aligned}
+    \end{equation}
+
+    \subsection{$\frac{\partial \, \text{tr}(\bS)}{\partial \bF}$}
+    \begin{equation}
+    \begin{aligned}
+        \delta\text{tr}(\bS) &= \text{tr}(\delta \bS)\\
+        &= \text{tr}(\delta\bR^T\bF) + \text{tr}(\bR^T\delta\bF)\\
+        &= \text{tr}(\delta\bR^T\bR\cdot\bS)  + \text{tr}(\bR^T\delta\bF)\\
+        &= R_{\alpha\beta}\delta F_{\alpha\beta}
+    \end{aligned}
+    \end{equation}
+    Thus,
+    \begin{equation}
+        \frac{\partial \, \text{tr}(\bS)}{\partial \bF} = \bR
+    \end{equation}
+
+    \subsection{$\frac{\partial J}{\partial \bF}$}
+    \begin{equation}
+    \begin{aligned}
+        \frac{\partial J}{\partial \bF} &= \frac{1}{2J}\frac{\partial J^2}{\partial \bF^T\bF}:\frac{\partial \bF^T\bF}{\partial \bF}\\
+        &= \frac{1}{2J}J^2(\bF^T\bF)^{-1}_{\delta\gamma}:\frac{\partial (\bF^T\bF)_{\gamma\delta}}{\partial \bF_{\alpha\beta}} \\
+        &= \frac{J}{2}(\bF^T\bF)^{-1}_{\beta\gamma}\cdot2\bF_{\alpha\gamma}\\
+        &= J\bF(\bF^T\bF)^{-T}\\ 
+    \end{aligned}
+    \end{equation}
+
+\section{Energy Denisity Hessian}
+    \begin{equation}
+    \begin{aligned}
+        \bC_{\alpha\gamma\beta\epsilon} &= \frac{\partial^2 \Psi}{\partial \bF_{\alpha\gamma}\partial \bF_{\beta\epsilon}}(\bF) = \frac{\partial \bP_{\alpha\gamma}}{\partial\bF_{\beta\epsilon}}(\bF)\\
+        &= 2\mu(\delta_{\alpha\beta}\delta_{\gamma\epsilon}-\frac{\partial \bR_{\alpha\gamma}}{\partial \bF_{\beta\epsilon}})+\lambda\frac{\partial J}{\partial \bF_{\alpha\gamma}}(J\bF(\bF^T\bF)^{-T})_{\beta\epsilon}+\lambda(J-1)\frac{\partial J(\bF(\bF^T\bF)^{-T})_{\alpha\gamma}}{\partial \bF_{\beta\epsilon}}\\
+        &= 2\mu(\bI-\frac{\partial \bR_{\alpha\gamma}}{\partial \bF_{\beta\epsilon}})+\lambda(J\bF(\bF^T\bF)^{-T})\otimes (J\bF(\bF^T\bF)^{-T})+\lambda(J-1)\frac{\partial J(\bF(\bF^T\bF)^{-T})_{\alpha\gamma}}{\partial \bF_{\beta\epsilon}}
+    \end{aligned}
+    \end{equation}
+\end{document}
