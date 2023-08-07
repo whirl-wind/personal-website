@@ -7,7 +7,7 @@ authors:
   - Christopher Brandt
   - Jean Jouve
   - Yue Wang
-  - Tian Chen
+  - TianChen
   - MarkPauly
   - Julian
 date: 2023-08-04T00:00:00.000Z
