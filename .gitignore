@@ -12,7 +12,7 @@ go.sum
 .hugo_build.lock
 
 # CV docx
-static/uploads/ZhanZhangCV.docx
+# static/uploads/ZhanZhangCV.docx
 
 # # python script
 # scriptTool
