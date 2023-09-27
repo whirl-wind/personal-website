@@ -4,7 +4,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 threshold=245
 
 def convertImage():
-	img = Image.open(dir_path+"/image.png")
+	img = Image.open(dir_path+"/img.png")
 	img = img.convert("RGBA")
 
 	datas = img.getdata()
