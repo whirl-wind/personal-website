@@ -39,10 +39,10 @@ education:
   courses:
     - course: PhD in Computer Science
       institution: University of California, Davis
-      year: 2021
+      year: 2021 - 
     - course: BS in Applied Mathematics
       institution: University of Science and Technology of China
-      year: 2017
+      year: 2017 - 2021
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons

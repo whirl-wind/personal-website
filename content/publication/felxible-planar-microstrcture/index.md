@@ -15,7 +15,7 @@ date: 2023-08-04T00:00:00.000Z
 
 # Publication name and optional abbreviated publication name.
 publication: In *ACM Transactions on Graphics 2023*
-publication_short: In *SIGGRAPH Aisa 2023*
+publication_short: In *SIGGRAPH Asia 2023*
 
 summary: We make an initial step on developing algorithms to accelerate homogenization and metamaterial design for nonlinear elasticity and building a complete framework for the optimal design of planar metamaterials.
 
