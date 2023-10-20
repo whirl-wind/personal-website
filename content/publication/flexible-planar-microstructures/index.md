@@ -32,9 +32,11 @@ tags:
 draft: false
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+# Custom links (uncomment lines below)
+links:
+- name: Supplements
+  url: flexible_planar_microstructures_supplement.pdf
+
 url_pdf: ''
 url_code: ''
 url_dataset: ''
@@ -47,7 +49,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  filename: felxible-planar-microstrcture.png # specify for shortcut
+  filename: flexible-planar-microstructures.png # specify for shortcut
   focal_point: Smart
   preview_only: false
 
