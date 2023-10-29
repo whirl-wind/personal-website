@@ -21,7 +21,7 @@ organizations:
   - name: UC Davis
     url: https://www.ucdavis.edu/
 
-# avatar_filename: zz.jpg
+avatar_filename: avatar.png
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include computer graphics, digital fabrication,
