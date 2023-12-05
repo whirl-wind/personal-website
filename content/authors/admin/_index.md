@@ -73,7 +73,7 @@ highlight_name: true
 
 link: https://zhanzhangzz.com/
 ---
-I am a second-year PhD student in the Computer Science department at the University of California, Davis. I feel very fortunate to be co-advised by Prof. [Joseph Teran](https://www.math.ucdavis.edu/~jteran/) and Prof. [Julian Panetta](https://julianpanetta.com/).
+I am a third-year PhD student in the Computer Science department at the University of California, Davis. I feel very fortunate to be co-advised by Prof. [Joseph Teran](https://www.math.ucdavis.edu/~jteran/) and Prof. [Julian Panetta](https://julianpanetta.com/).
 
 My research interests lie in digital fabrication, physical simulation, and geometry processing for computer graphics. Currently, I am working on research related to shape optimization on nonlinear elasticity materials.
 

@@ -1,10 +1,10 @@
 from PIL import Image
 import os 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-threshold=245
+threshold=200
 
 def convertImage():
-	img = Image.open(dir_path+"/img.png")
+	img = Image.open(dir_path+"/input.png")
 	img = img.convert("RGBA")
 
 	datas = img.getdata()
@@ -18,7 +18,7 @@ def convertImage():
 			newData.append(item)
 
 	img.putdata(newData)
-	img.save(dir_path+"/New.png", "PNG")
+	img.save(dir_path+"/ouput.png", "PNG")
 	print("Successful")
 
 convertImage()
