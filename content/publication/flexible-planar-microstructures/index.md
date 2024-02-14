@@ -11,7 +11,7 @@ authors:
   - MarkPauly
   - Julian
 date: 2023-08-04T00:00:00.000Z
-# doi: 10.1109/TVCG.2021.3106433
+doi: 10.1145/3618396
 
 # Publication name and optional abbreviated publication name.
 publication: In *ACM Transactions on Graphics 2023*
