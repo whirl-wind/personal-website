@@ -1,3 +1,6 @@
 */*.aux
 */*.log
 */*.synctex.gz
+preambles.tex
+
+uniaxial-stretch-in-homogenization
