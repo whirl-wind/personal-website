@@ -29,9 +29,9 @@ bio: My research interests include computer graphics, digital fabrication,
 
 # Interests to show in About widget
 interests:
-  - Digital Fabrication
+  - Inverse Fabrication Design
   - Physical Simulation
-  - Inverse Problems
+  - Animation Retargeting
   - Geometry Processing
 
 # Education to show in About widget
