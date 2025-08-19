@@ -73,9 +73,10 @@ highlight_name: true
 
 link: https://zhanzhangzz.com/
 ---
-I am a fourth-year PhD student in the Computer Science department at the University of California, Davis. I feel very fortunate to be co-advised by Prof. [Joseph Teran](https://www.math.ucdavis.edu/~jteran/) and Prof. [Julian Panetta](https://julianpanetta.com/).
+I am a fifth-year PhD student in the Computer Science department at the University of California, Davis. I feel very fortunate to be co-advised by Prof. [Joseph Teran](https://www.math.ucdavis.edu/~jteran/) and Prof. [Julian Panetta](https://julianpanetta.com/).
 
-My research interests lie in digital fabrication, physical simulation, animation retargeting and geometry processing for computer graphics. Currently, I am working on research related to machine learning-based animation retargeting, integrating a collision-aware rigid body solver to enhance efficiency and realism.
+My research interests lie in digital fabrication, physical simulation, animation retargeting, and geometry processing for computer graphics. I am also exploring how data-driven methods can be leveraged to enhance the efficiency and robustness of traditional graphics techniques.
+Currently, I am working on research related to learning-based animation retargeting for characters with varying body shapes and props interaction.
 
 Before joining UC Davis, I double majored in Mathematics and Computer Science at the University of Science and Technology of China. I was glad to be supervised by Prof. [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/) and Prof. [Xiaoming Fu](https://ustc-gcl-f.github.io/) in Graphics & Geometric Computing Laboratory.
 {style="text-align: justify;"}
